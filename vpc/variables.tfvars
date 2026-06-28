@@ -1,9 +1,8 @@
-project_name        = "tans-shared-vpc"
-region              = "europe-west3"
-#gke_cluster_name    = "<dev-gke-cluster>"
-#fldr-network-parent_folder_id    = "<folders/1234567890>"  # Replace with actual parent folder ID
-ip_cidr_range = 100.100.0.0/24
-subnet_name=test-subnet
-vpc_network=test-network
-host-project-id=host-project-id
-service-project-id=service-project-id
+host_project_id    = "tans-shared-vpc"
+service_project_id = "terraform-gcp-498312"
+region             = "europe-west3"
+vpc_name           = "vpc-shared"
+subnet_name        = "subnet-gke"
+subnet_cidr        = "10.0.0.0/24"
+pods_cidr          = "10.1.0.0/16"
+services_cidr      = "10.2.0.0/16"
