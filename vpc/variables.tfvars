@@ -1,8 +1,8 @@
-project_name        = "<prj-bp-n-app-name-id>"
+project_name        = "tans-shared-vpc"
 region              = "europe-west3"
-gke_cluster_name    = "<dev-gke-cluster>"
-fldr-network-parent_folder_id    = "<folders/1234567890>"  # Replace with actual parent folder ID
-ip_cidr_range = 192.168.0.0/24
+#gke_cluster_name    = "<dev-gke-cluster>"
+#fldr-network-parent_folder_id    = "<folders/1234567890>"  # Replace with actual parent folder ID
+ip_cidr_range = 100.100.0.0/24
 subnet_name=test-subnet
 vpc_network=test-network
 host-project-id=host-project-id
