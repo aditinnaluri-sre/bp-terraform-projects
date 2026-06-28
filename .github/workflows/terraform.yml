@@ -13,6 +13,9 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./vpc
 
 
     defaults:
@@ -43,7 +46,7 @@ jobs:
 
     # Generates an execution plan for Terraform
     - name: Terraform Plan
-      run: terraform plan -input=false
+      run: terraform plan -input=false -var-file="variables.tfvars"
 
 
     - name: Terraform Apply
