@@ -1,4 +1,4 @@
-host_project_id    = "tans-shared-vpc"
+host_project_id    = "diesel-rain-440405-k8"
 service_project_id = "terraform-gcp-498312"
 region             = "europe-west3"
 vpc_name           = "vpc-shared"
