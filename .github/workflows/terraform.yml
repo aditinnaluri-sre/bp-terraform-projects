@@ -26,8 +26,8 @@ jobs:
     - id: auth
       uses: google-github-actions/auth@v2.0.0  
       with:
-        workload_identity_provider: 'projects/357431838617/locations/global/workloadIdentityPools/git-shared-vpc-pool/providers/github'
-        service_account: 'githud-actions@tans-shared-vpc.iam.gserviceaccount.com'
+        workload_identity_provider: 'projects/213407456480/locations/global/workloadIdentityPools/git-shared-vpc-pool/providers/github'
+        service_account: 'githud-actions@diesel-rain-440405-k8.iam.gserviceaccount.com'
 
 
           
